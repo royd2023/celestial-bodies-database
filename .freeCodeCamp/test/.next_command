@@ -427,3 +427,13 @@ git remote remove origin
 camper: /project$ git remote -v
 git remote add origin https://github.com/royd2023/celestial-bodies-database.git
 git add .
+git commit -m "save progress"
+git push -u origin main
+git push -u origin main
+git credential-cache exit
+git config --global --unset credential.helper
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git add .
