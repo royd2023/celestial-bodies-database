@@ -437,3 +437,12 @@ git push -u origin main
 git push -u origin main
 git push -u origin main
 git add .
+git commit -m "test"
+git push
+ls --color=auto -la
+pg dump universe > universe.sql
+pg_dump universe > universe.sql
+pg_dump universe > universe.sql
+pg_dump -U postgres universe > universe.sql
+psql --username=freecodecamp --dbname=postgres
+git add .
