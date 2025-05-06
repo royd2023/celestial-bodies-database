@@ -3,10 +3,13 @@ in bash: pg_dump -U postgres universe > universe.sql
 
 To restore the dump:
 - start postgresql
+  
 -in bash:
 pg_dump -U postgres universe > universe.sql
+
 -in psql:
 CREATE DATABASE universe;
 \q
+
 -in bash:
 psql -U postgres -d universe -f universe.sql
