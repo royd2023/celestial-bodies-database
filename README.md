@@ -1,15 +1,26 @@
-To save/dump the database:
-in bash: pg_dump -U postgres universe > universe.sql
+### To save/dump the database
 
-To restore the dump:
-- start postgresql
-  
-- in bash:
+In bash:
+```bash
 pg_dump -U postgres universe > universe.sql
+```
 
-- in psql:
-CREATE DATABASE universe;\n
+### To restore the dump
+
+1. Start PostgreSQL
+
+2. In bash:
+```bash
+psql -U postgres
+```
+
+3. In psql:
+```sql
+CREATE DATABASE universe;
 \q
+```
 
-- in bash:
+4. In bash:
+```bash
 psql -U postgres -d universe -f universe.sql
+```
