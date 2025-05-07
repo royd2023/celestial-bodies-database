@@ -689,3 +689,9 @@ git config pull.rebase false
 git pull
 git push
 git add .
+git commit -m "updated the databse further"
+git push
+git pull
+git push
+git status
+git add .
