@@ -1,3 +1,4 @@
+freecodecamp Celestial Bodies Database project
 ### To save/dump the database
 
 In bash:
