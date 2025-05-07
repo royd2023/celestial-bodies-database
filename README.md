@@ -11,7 +11,7 @@ pg_dump -U postgres universe > universe.sql
 
 2. In bash:
 ```bash
-psql -U postgres
+psql --username=freecodecamp --dbname=postgres
 ```
 
 3. In psql:
