@@ -702,3 +702,5 @@ git commit
 git commit -m "more updates"
 git push
 git push
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git add .
