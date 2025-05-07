@@ -698,3 +698,7 @@ git add .
 git commit -m "added another table and more rows"
 git push
 git add .
+git commit
+git commit -m "more updates"
+git push
+git push
