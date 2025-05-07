@@ -695,3 +695,6 @@ git pull
 git push
 git status
 git add .
+git commit -m "added another table and more rows"
+git push
+git add .
